@@ -18,11 +18,11 @@
     <title>EEESoc WebDev Team</title>
 
     <!-- IF YOU WANT TO USE BOOTSTRAP. PUT YOUR LINK HERE -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- LINK TO YOUR CSS FILES -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/owl.css" />
     <link rel="stylesheet" href="assets/css/lightbox.css" />
   </head>
@@ -30,24 +30,24 @@
   <body>
     <div id="page-wraper">
       <!-- WHAT YOU THINK WOULD BEST HELP TO DESCRIBE YOU AND/OR WHAT WOULD MAKE YOUR PORTFOLIO LOOK GOOD -->
-      <div class="responsive-nav">
-        <i class="fa fa-bars" id="menu-toggle"></i>
-        <div id="menu" class="menu">
-          <i class="fa fa-times" id="menu-close"></i>
-          <div class="container">
-            <div class="image">
-              <a href="#"><img src="assets/images/author-image.jpg" alt="" /></a>
+      <div class="navbar-brand js-scroll-trigger w-100">
+        <!--<i class="fa fa-bars" id="menu-toggle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" ></i>-->
+        <div id="menu" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top menu">
+          <i class="fa fa-times" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" id="menu-close"></i>
+          <div class="container-fluid">
+            <div class="d-none d-lg-block image">
+              <a class = "navbar-brand js-scroll-trigger" href="#"><img class = "img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/images/author-image.jpg" alt="" /></a>
             </div>
             <div class="author-content">
-              <h4>Zeeshan Equbal</h4>
+              <h3>Zeeshan Equbal</h3>
               <span>Member</span>
             </div>
-            <nav class="main-nav" role="navigation">
-              <ul class="main-menu">
-                <li><a href="#section1">About Me</a></li>
-                <li><a href="#section2">What I’m good at</a></li>
-                <li><a href="#section3">My Work</a></li>
-                <li><a href="#section4">Contact Me</a></li>
+            <nav class="collapse navbar-collapse main-nav" role="navigation" id = "navbarSupportedContent">
+              <ul class="navbar-nav main-menu">
+                <li class = "nav-item"><a class = "nav-link js-scroll-trigger" href="#section1">About Me</a></li>
+                <li class = "nav-item"><a class = "nav-link js-scroll-trigger" href="#section2">What I’m good at</a></li>
+                <li class = "nav-item"><a class = "nav-link js-scroll-trigger" href="#section3">My Work</a></li>
+                <li class = "nav-item"><a class = "nav-link js-scroll-trigger" href="#section4">Contact Me</a></li>
               </ul>
             </nav>
 
@@ -57,33 +57,29 @@
               <ul class="soial-icons">
                 <li>
                   <a href="https://fb.com/templatemo"
-                    ><i class="fa fa-facebook"></i
+                    ><i class="nav-item fa fa-facebook"></i
                   ></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="nav-item fa fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="nav-item fa fa-linkedin"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-dribbble"></i></a>
+                  <a href="#"><i class="nav-item fa fa-dribbble"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-rss"></i></a>
+                  <a href="#"><i class="nav-item fa fa-rss"></i></a>
                 </li>
               </ul>
-            </div>
-            <div class="copyright-text">
-              <!-- YOU CAN COPYRIGHT WITH YOUR NAME OR EEESoc's, its your wish :) -->
-              <p>Copyright 2020 EEESoc</p>
             </div>
           </div>
         </div>
       </div>
 
       <!-- SECTION TO TELL ABOUT YOURSELF-->
-      <section class="section about-me" data-section="section1">
+      <section class="section about-me " id="section1">
         <div class="container">
           <div class="section-heading">
 
@@ -149,7 +145,7 @@
       </section>
       
       <!-- IN THIS SECTION YOU CAN MENTION WHAT YOU ARE GOOD AT-->
-      <section class="section my-services" data-section="section2">
+      <section class="section my-services" id="section2">
         <div class="container">
           <div class="section-heading">
             <h2>What I’m good at?</h2>
@@ -210,7 +206,7 @@
         </div>
       </section>
 
-      <section class="section my-work" data-section="section3">
+      <section class="section my-work" id="section3">
         <div class="container">
           <div class="section-heading">
             <!-- ANY MENTIONABLE WORK OR PROJECTS YOU HAVE DONE UPTIL NOW-->
@@ -382,7 +378,7 @@
       </section>
       
       <!-- THIS WILL BE YOUR CONTACT ME FORM. DON'T WORRY ABOUT BACKEND, JUST STYLE THIS CONTACT FORM-->
-      <section class="section contact-me" data-section="section4">
+      <section class="section contact-me" id="section4">
         <div class="container">
           <div class="section-heading">
             <h2>Contact Me</h2>
@@ -463,12 +459,7 @@
     </div>
 
     <!--HERE YOU CAN ADD THE SCRIPTS i.e. JAVASCRIPT FILES (IF YOU ARE USING ANY).-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!-- THESE SCRIPT TAGS ARE JUST FOR EXAMPLE, THEY ARE CURRENTLY NOT PRESENT.-->
   </body>
 </html>
