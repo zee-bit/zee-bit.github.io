@@ -20,5 +20,14 @@
     - <a href = "https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf">Git cheatsheet</a> 
     - <a href = "https://stackoverflow.com">Stack Overflow</a>
     - <a href = "https://youtube.com/results?search_query=html">YouTube</a>
+    
+## Day 3
+- List of things learnt
+    - CSS
+    - Bootstrap 4
+    - GitCLI
+
+- Any useful resource found
+    - <a href = "https://youtube.com/results?search_query=css">YouTube</a>
 
 
