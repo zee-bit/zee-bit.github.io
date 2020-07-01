@@ -29,5 +29,14 @@
 
 - Any useful resource found
     - <a href = "https://youtube.com/results?search_query=css">YouTube</a>
+    
+## Day 4
+- List of things learnt
+    - CSS
+    - Bootstrap 4
+    - media queries
+
+- Any useful resource found
+    - <a href = "https://youtube.com/results?search_query=css_media_queries">YouTube</a>
 
 
