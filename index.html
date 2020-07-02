@@ -23,21 +23,22 @@
     <!-- LINK TO YOUR CSS FILES -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/flex-slider.css" />
   </head>
 
   <body>
     <div id="page-wrapper">
       <!-- WHAT YOU THINK WOULD BEST HELP TO DESCRIBE YOU AND/OR WHAT WOULD MAKE YOUR PORTFOLIO LOOK GOOD -->
-      <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+      <header class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="site-header site-header.hide">
         <!--<i class="fa fa-bars" id="menu-toggle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" ></i>-->
         <div id="menu" class="js-scroll-trigger menu">
           <!--<i class="fa fa-times" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" id="menu-close"></i>-->
           <div class="navbar">
-            <div class="d-none d-lg-block image">
-              <a class = "navbar-brand js-scroll-trigger" href="#"><img class = "img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/images/author-image.jpg" alt="" /></a>
+            <div class="d-none d-sm-block image">
+              <a class = "navbar-brand js-scroll-trigger" href="#"><img class = "img-fluid img-profile rounded-circle" src="assets/images/author-image.jpg" alt="" /></a>
             </div>
             <div class="navbar author-content">
-              <h3>Zeeshan Equbal</h3>
+              <h3 style="color: azure;">Zeeshan Equbal</h3>
             </div>
             <nav class="main-nav" role="navigation" id = "navbarSupportedContent">
               <ul class="navbar-nav main-menu">
@@ -51,23 +52,23 @@
 
             <!--HERE GIVE LINKS DIRECTING TO YOUR OWN PROFILES TO THESE ICONS --> 
             <div class="social-network">
-              <ul class="soial-icons">
+              <ul class="navbar-nav soial-icons">
                 <li>
                   <a href="https://fb.com/templatemo"
-                    ><i class="nav-item fa fa-facebook"></i
+                    ><i class="nav-item fa fa-facebook fa-lg icon"></i
                   ></a>
                 </li>
                 <li>
-                  <a href="#"><i class="nav-item fa fa-twitter"></i></a>
+                  <a href="#"><i class="nav-item fa fa-twitter icon fa-lg"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="nav-item fa fa-linkedin"></i></a>
+                  <a href="#"><i class="nav-item fa fa-linkedin icon fa-lg"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="nav-item fa fa-dribbble"></i></a>
+                  <a href="#"><i class="nav-item fa fa-dribbble icon fa-lg"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="nav-item fa fa-rss"></i></a>
+                  <a href="#"><i class="nav-item fa fa-rss icon fa-lg"></i></a>
                 </li>
               </ul>
             </div>
@@ -80,7 +81,7 @@
         <div class="container">
           <div class="section-heading">
 
-            <h2>About Me</h2>
+            <h2 style="text-align: center;">About Me</h2>
             <div class="line-dec"></div>
             <span style="padding-bottom: 10px;">
               Enthusiastic coder, competitive programmer, avid Rubiks cube solver.
@@ -144,7 +145,7 @@
       <section class="section my-services" id="section2">
         <div class="container">
           <div class="section-heading">
-            <h2>What I’m good at?</h2>
+            <h2 style="padding: 25px 0px 25px 0px; text-align: center;">What I’m good at?</h2>
             <div class="line-dec"></div>
             <span
               >Curabitur leo felis, rutrum vitae varius eu, malesuada a tortor.
@@ -205,8 +206,7 @@
       <section class="section my-work" id="section3">
         <div class="container">
           <div class="section-heading">
-            <!-- ANY MENTIONABLE WORK OR PROJECTS YOU HAVE DONE UPTIL NOW-->
-            <h2>My Work</h2>
+            <h2 style="padding: 25px 0 25px 0; text-align: center;">My Work</h2>
             <div class="line-dec"></div>
             <span
               >Aenean sollicitudin ex mauris, lobortis lobortis diam euismod sit
@@ -214,45 +214,8 @@
               mauris.</span
             >
           </div>
-
-          <!--WHAT IS GIVEN DOWN HERE ARE JUST EXAMPLES, BUT YOU CAN DO ANYTHING YOU WANT OR CAN ALSO JUST STYLE THIS-->
           <div class="row">
             <div class="isotope-wrapper">
-              <form class="isotope-toolbar">
-                <label
-                  ><input
-                    type="radio"
-                    data-type="*"
-                    checked=""
-                    name="isotope-filter"
-                  />
-                  <span>all</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="people"
-                    name="isotope-filter"
-                  />
-                  <span>ANY</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="nature"
-                    name="isotope-filter"
-                  />
-                  <span>ELECTRICAL OR ELECTRONICS RELATED</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="animals"
-                    name="isotope-filter"
-                  />
-                  <span>CODING RELATED</span></label
-                >
-              </form>
               <div class="isotope-box">
                 <div class="isotope-item" data-type="nature">
                   <figure class="snip1321">
@@ -267,8 +230,8 @@
                         data-title="Caption"
                         ><i class="fa fa-search"></i
                       ></a>
-                      <h4>First Title</h4>
-                      <span>free to use our template</span>
+                      <h4>My original Portfolio site</h4>
+                      <span>Designed using React and Bootstrap</span>
                     </figcaption>
                   </figure>
                 </div>
@@ -377,14 +340,14 @@
       <section class="section contact-me" id="section4">
         <div class="container">
           <div class="section-heading">
-            <h2>Contact Me</h2>
-            <div class="line-dec"></div>
+            <h2 style="color:azure; padding-bottom: 24px; text-align: center;">Contact Me</h2>
+            <!-- <div class="line-dec"></div>
             <span
               >Fusce eget nibh nec justo interdum condimentum. Morbi justo ex,
               efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor
               sit amet, consectetur adipiscing elit.</span
             >
-          </div>
+          </div> -->
           <div class="row">
             <div class="right-content">
               <div class="container">
@@ -438,9 +401,9 @@
                         ></textarea>
                       </fieldset>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 pb-5">
                       <fieldset>
-                        <button type="submit" id="form-submit" class="button">
+                        <button type="submit" id="form-submit" class="btn button btn-outline-light">
                           Send Message
                         </button>
                       </fieldset>
@@ -456,6 +419,7 @@
 
     <!--HERE YOU CAN ADD THE SCRIPTS i.e. JAVASCRIPT FILES (IF YOU ARE USING ANY).-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src = "assets/js/hideHeader.js"></script>
     <!-- THESE SCRIPT TAGS ARE JUST FOR EXAMPLE, THEY ARE CURRENTLY NOT PRESENT.-->
   </body>
 </html>
