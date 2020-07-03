@@ -24,7 +24,7 @@
 
 ![](../memes/m5.jpeg)
 ## Day 3
-- [ ] Get acquainted with CSS
+- [x] Get acquainted with CSS
     Resource Links :
     - <a href="https://www.w3schools.com/css/default.asp">w3schools</a>
     - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN web docs</a>
@@ -40,7 +40,7 @@
         - [x] Media Queries
         - [x] Flexbox and Grids
         - [x] Transforms, Transitions and Animations 
-- [ ] You can also learn about CSS Frameworks like <a href="https://getbootstrap.com/">Bootstrap</a>
+- [x] You can also learn about CSS Frameworks like <a href="https://getbootstrap.com/">Bootstrap</a>
 
 ![](../memes/m13.jpeg)
 
@@ -61,17 +61,17 @@
 ## Day 5(JS)
 
 ![](../memes/m6.jpeg)
-- [ ] Start Learning Javascipt from 
+- [x] Start Learning Javascipt from 
     - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN Web Docs</a>
     - <a href="https://eloquentjavascript.net/">Eloquent Javascript Book for reference</a>
     - List of important topics to learn in Javascipt :
-        - [ ] Types, Variables and Scoping
-        - [ ] Objects and Functions
-        - [ ] The DOM
-        - [ ] Events and EventListeners
-        - [ ] Flow Control
-        - [ ] ES6, etc
-- [ ] You can also learn about any Javascipt Frameworks like JQuery, React, etc
+        - [x] Types, Variables and Scoping
+        - [x] Objects and Functions
+        - [x] The DOM
+        - [x] Events and EventListeners
+        - [x] Flow Control
+        - [x] ES6, etc
+- [x] You can also learn about any Javascipt Frameworks like JQuery, React, etc
     
 ## Day 6 (JS)
 - [ ] Start adding JS to your project. Keep all the JS in **<project_dir>/assets/js/** folder.

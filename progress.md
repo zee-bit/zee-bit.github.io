@@ -39,4 +39,13 @@
 - Any useful resource found
     - <a href = "https://youtube.com/results?search_query=css_media_queries">YouTube</a>
 
+## Day 5
+- List of things learnt
+    - JS
+    - React
+    - DOM Manipulation
+
+- Any useful resource found
+    - <a href = "https://youtube.com/results?search_query=Java Script for web development">YouTube</a>
+
 
