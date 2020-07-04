@@ -74,28 +74,28 @@
 - [x] You can also learn about any Javascipt Frameworks like JQuery, React, etc
     
 ## Day 6 (JS)
-- [ ] Start adding JS to your project. Keep all the JS in **<project_dir>/assets/js/** folder.
-- [ ] You can also use JQuery or any other Framework for styling.
-- [ ] Add the JS script in your index.html using **script** tag
+- [x] Start adding JS to your project. Keep all the JS in **<project_dir>/assets/js/** folder.
+- [x] You can also use JQuery or any other Framework for styling.
+- [x] Add the JS script in your index.html using **script** tag
 
-- [ ] Create atleast 
-   - [ ] Two of these animations by DOM manipulation using Javascript -
+- [x] Create atleast 
+   - [x] Two of these animations by DOM manipulation using Javascript -
         - [ ] Fade-Effect
-        - [ ] Roll-in or Roll-out
-        - [ ] Page-In or Page-out
+        - [x] Roll-in or Roll-out
+        - [x] Page-In or Page-out
         - [ ] Object Movements
         - [ ] Fireworks
-   - [ ] Two EventListeners for events like Click, KeyDown, Resize, etc.
+   - [x] Two EventListeners for events like Click, KeyDown, Resize, etc.
    
    ![](../memes/m3.jpeg)
 
 ## Day 7
-- [ ] Make any final changes in your website, you still have time.
-- [ ] Make sure GitHub pages is enabled for your repository. <a href="https://help.github.com/en/enterprise/2.13/user/articles/configuring-a-publishing-source-for-github-pages">Go here to get help with this</a>
-- [ ] Visit **your_username.github.io**. That should be your portfolio.
-- [ ] Keep the forked repository in sync with the actual repository. Refer <a href="https://gist.github.com/CristinaSolana/1885435">this.</a>
-- [ ] In the synced fork on your repository, edit the README.md file to add your Name and the link to your portfolio.
-- [ ] Then make a Pull Request to the Repository on EEESoc Organisation from which you had first forked.
+- [x] Make any final changes in your website, you still have time.
+- [x] Make sure GitHub pages is enabled for your repository. <a href="https://help.github.com/en/enterprise/2.13/user/articles/configuring-a-publishing-source-for-github-pages">Go here to get help with this</a>
+- [x] Visit **your_username.github.io**. That should be your portfolio.
+- [x] Keep the forked repository in sync with the actual repository. Refer <a href="https://gist.github.com/CristinaSolana/1885435">this.</a>
+- [x] In the synced fork on your repository, edit the README.md file to add your Name and the link to your portfolio.
+- [x] Then make a Pull Request to the Repository on EEESoc Organisation from which you had first forked.
 
 ![](../memes/m10.jpeg)
 

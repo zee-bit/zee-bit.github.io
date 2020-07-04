@@ -152,12 +152,6 @@ body {
       padding: 80px 45px 50px 45px;
   }
   
-  .isotope-wrapper {
-      position: relative;
-      width: 100%;
-      margin: auto;
-  }
-  
   .isotope-toolbar input[type="radio"] {
       display: none;
   }
@@ -177,11 +171,6 @@ body {
   .isotope-toolbar input[type="radio"]:checked + span {
       color: #a43f49;
       border-bottom: 2px solid #a43f49;
-  }
-  
-  .isotope-box {
-      position: relative;
-      width: 100%;
   }
   
   .isotope-toolbar {

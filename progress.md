@@ -46,6 +46,26 @@
     - DOM Manipulation
 
 - Any useful resource found
-    - <a href = "https://youtube.com/results?search_query=Java Script for web development">YouTube</a>
+    - <a href = "https://youtube.com/results?search_query=Java_Script_for_web_development">YouTube</a>
+
+## Day 6
+- List of things learnt
+    - JS
+    - JQuery
+    - DOM Manipulation
+
+- Any useful resource found
+    - <a href = "https://youtube.com/results?search_query=Java_Script_and_Jquery_for_web_development">YouTube</a>
+    - w3schools
+
+## Day 7
+- List of things learnt
+    - JQuery
+    - Pull request
+    - Github pages
+
+- Any useful resource found
+    - <a href = "https://youtube.com/results?search_query=Pull_request_in_github">YouTube</a>
+    - github docs
 
 

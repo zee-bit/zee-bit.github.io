@@ -8,7 +8,7 @@
     var direction = 0;
     var prevDirection = 0;
   
-    var header = document.getElementById('site-header');
+    var header = document.getElementById("header");
   
     var checkScroll = function() {
   
@@ -35,7 +35,7 @@
     };
   
     var toggleHeader = function(direction, curScroll) {
-      if (direction === 2 && curScroll > 52) { 
+      if (direction === 2 && curScroll > 130) { 
         
         //replace 52 with the height of your header in px
   

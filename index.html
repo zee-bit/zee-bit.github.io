@@ -29,12 +29,12 @@
   <body>
     <div id="page-wrapper">
       <!-- WHAT YOU THINK WOULD BEST HELP TO DESCRIBE YOU AND/OR WHAT WOULD MAKE YOUR PORTFOLIO LOOK GOOD -->
-      <header class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="site-header site-header.hide">
+      <div class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="site-header site-header.hide">
         <!--<i class="fa fa-bars" id="menu-toggle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" ></i>-->
         <div id="menu" class="js-scroll-trigger menu">
           <!--<i class="fa fa-times" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" id="menu-close"></i>-->
-          <div class="navbar">
-            <div class="d-none d-sm-block image">
+          <div class="navbar" role="navigation" id="header">
+            <div class="d-none d-lg-block image">
               <a class = "navbar-brand js-scroll-trigger" href="#"><img class = "img-fluid img-profile rounded-circle" src="assets/images/author-image.jpg" alt="" /></a>
             </div>
             <div class="navbar author-content">
@@ -51,7 +51,7 @@
 
 
             <!--HERE GIVE LINKS DIRECTING TO YOUR OWN PROFILES TO THESE ICONS --> 
-            <div class="social-network">
+            <div class="social-network" >
               <ul class="navbar-nav soial-icons">
                 <li>
                   <a href="https://fb.com/templatemo"
@@ -133,7 +133,7 @@
               </div>
               <div class="col-md-6">
                 <div class="right-image">
-                  <img src="assets/images/right-image.jpg" alt="" />
+                  <img style="height: 270px; width: 530px;" src="assets/images/right-image.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -145,9 +145,9 @@
       <section class="section my-services" id="section2">
         <div class="container">
           <div class="section-heading">
-            <h2 style="padding: 25px 0px 25px 0px; text-align: center;">What I’m good at?</h2>
+            <h2 style="padding: 50px 0px 25px 0px; text-align: center;">What I’m good at?</h2>
             <div class="line-dec"></div>
-            <span
+            <span 
               >Curabitur leo felis, rutrum vitae varius eu, malesuada a tortor.
               Vestibulum congue leo et tellus aliquam, eu viverra nulla semper.
               Nullam eu faucibus diam. Donec eget massa ante.</span
@@ -158,7 +158,7 @@
               <div class="service-item">
                 <div class="first-service-icon service-icon"></div>
                 <!-- PUT YOUR SKILLS HERE, BUT ONE OF THE SKILL YOU SHOULD MENTION IS "HTML5 & CSS3", EXACTLY LIKE THIS.-->
-                <h4>HTML5 &amp; CSS3</h4>
+                <h4 style="padding: 25px 0px 0px 0px;">HTML5 &amp; CSS3</h4>
                 <p>
                   Phasellus non convallis dolor. Integer tempor hendrerit arcu
                   at bibendum. Sed ac ante non metus vehicula congue quis eget
@@ -169,7 +169,7 @@
             <div class="col-md-6">
               <div class="service-item">
                 <div class="second-service-icon service-icon"></div>
-                <h4>React &amp; Bootstrap</h4>
+                <h4 style="padding: 25px 0px 0px 0px;">React &amp; Bootstrap</h4>
                 <p>
                   Proin lacus massa, eleifend sed fermentum in, dignissim vel
                   metus. Nunc accumsan leo nec felis porttitor, ultricies
@@ -180,7 +180,7 @@
             <div class="col-md-6">
               <div class="service-item">
                 <div class="third-service-icon service-icon"></div>
-                <h4>C++ &amp; Python</h4>
+                <h4 style="padding: 25px 0px 0px 0px;">C++ &amp; Python</h4>
                 <p>
                   Integer suscipit condimentum aliquet. Nam quis risus metus.
                   Nullam faucibus quam eget arcu pretium tincidunt. Nam libero
@@ -191,7 +191,7 @@
             <div class="col-md-6">
               <div class="service-item">
                 <div class="fourth-service-icon service-icon"></div>
-                <h4>Linux &amp; CLI</h4>
+                <h4 style="padding: 25px 0px 0px 0px;">Linux &amp; CLI</h4>
                 <p>
                   Vivamus et dui a massa venenatis fringilla. Proin lacus massa,
                   eleifend sed fermentum in, dignissim vel metus. Nunc accumsan
@@ -206,7 +206,7 @@
       <section class="section my-work" id="section3">
         <div class="container">
           <div class="section-heading">
-            <h2 style="padding: 25px 0 25px 0; text-align: center;">My Work</h2>
+            <h2 style="padding: 0px 0 25px 0; text-align: center;">My Work</h2>
             <div class="line-dec"></div>
             <span
               >Aenean sollicitudin ex mauris, lobortis lobortis diam euismod sit
@@ -215,9 +215,7 @@
             >
           </div>
           <div class="row">
-            <div class="isotope-wrapper">
-              <div class="isotope-box">
-                <div class="isotope-item col-md-6">
+                <div class="isotope-item col-md-5 col-xs-12">
                   <figure class="snip1321">
                     <img 
                       src="assets/images/portfolio-01.jpg"
@@ -236,7 +234,7 @@
                   </figure>
                 </div>
 
-                <div class="isotope-item col-md-6">
+                <div class="isotope-item col-md-5 col-xs-12">
                   <figure class="snip1321">
                     <img
                       src="assets/images/portfolio-02.jpg"
@@ -249,13 +247,13 @@
                         data-title="Caption"
                         ><i class="fa fa-search"></i
                       ></a>
-                      <h4>Second Title</h4>
-                      <span>please tell your friends</span>
+                      <h4>GeeksforGeeks Intern</h4>
+                      <span>I am currently interning at GfG as a Technical content writer</span>
                     </figcaption>
                   </figure>
                 </div>
 
-                <div class="isotope-item col-md-6">
+                <div class="isotope-item col-md-5 col-xs-12">
                   <figure class="snip1321">
                     <img
                       src="assets/images/portfolio-03.jpg"
@@ -268,13 +266,13 @@
                         data-title="Caption"
                         ><i class="fa fa-search"></i
                       ></a>
-                      <h4>Item Third</h4>
-                      <span>customize anything</span>
+                      <h4>GoogleAI ExploreML Intermediate</h4>
+                      <span>Attended google certified W/S on Machine and Deep Learning</span>
                     </figcaption>
                   </figure>
                 </div>
 
-                <div class="isotope-item col-md-6" data-type="people">
+                <div class="isotope-item col-md-5 col-xs-12">
                   <figure class="snip1321">
                     <img
                       src="assets/images/portfolio-04.jpg"
@@ -287,51 +285,11 @@
                         data-title="Caption"
                         ><i class="fa fa-search"></i
                       ></a>
-                      <h4>Item Fourth</h4>
-                      <span>Re-distribution not allowed</span>
+                      <h4>WebDev at IETE</h4>
+                      <span>Achieved WebDev position at IETE BIT Mesra</span>
                     </figcaption>
                   </figure>
                 </div>
-
-                <div class="isotope-item col-md-6">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-05.jpg"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-05.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Fifth Awesome</h4>
-                      <span>Ut sollicitudin risus</span>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                <div class="isotope-item col-md-6" data-type="animals">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-06.jpg"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-06.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Awesome Sixth</h4>
-                      <span>Donec eget massa ante</span>
-                    </figcaption>
-                  </figure>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -418,8 +376,9 @@
     </div>
 
     <!--HERE YOU CAN ADD THE SCRIPTS i.e. JAVASCRIPT FILES (IF YOU ARE USING ANY).-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src = "assets/js/hideHeader.js"></script>
+    <script src = "assets/js/smoothScroll.js"></script>
     <!-- THESE SCRIPT TAGS ARE JUST FOR EXAMPLE, THEY ARE CURRENTLY NOT PRESENT.-->
   </body>
 </html>
